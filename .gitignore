@@ -42,3 +42,7 @@ next-env.d.ts
 
 # mcp configuration (contains sensitive tokens)
 .mcp.json
+
+# playwright screenshots
+*.png
+*.jpeg

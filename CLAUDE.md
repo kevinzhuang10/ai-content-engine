@@ -64,3 +64,6 @@ IMMEDIATELY after implementing any front-end change:
 7. **Check for errors** - Run `mcp__playwright__browser_console_messages`
 
 This verification ensures changes meet design standards and user requirements.
+- ## Port Usage for Testing
+
+If a process is already running on port 3000, use that port for testing purposes rather than spinning up a new process on a different port (e.g., 3001). The port 3000 process is typically the main application that has been started separately. Reuse existing ports when possible to avoid port proliferation.
